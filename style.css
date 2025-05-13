@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --MarromEscuro: #2e190e;
+    --BegeEscuro: #c1a37f;
+    --BegeClaro: #f5f5dc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 300px;
+    width: 3000px;
+    background-color: #2e190e;
+    
+}
+header > h1{
+    color: white;
+    text-align: center;
+}
+header h2{
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: var(--MarromEscuro);
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.video1{
+    width: 100%;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.342);
+}
+h2{
+    font-family: Playfair Display,serif;
+    color: black;
+}
+#NossaEmpresa{
+    font-family: Playfair Display,serif;
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+#logo1{
+    height: 100px;
+    width: 100px;
+    
+}
+#logo2{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    
+}
+body{
+    background-image: linear-gradient(to bottom, #2e190e, #2e190e, #c1a37f,#c1a37f,#c1a37f,#2e190e, #2e190e);
+    text-indent: 30px;
+    text-align: justify;
+}
+body h2{
+    text-align: center;
+    padding: 40px;
+}
+main{
+    background-color: var(--BegeClaro);
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer{
+    background-color: #2e190e;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer > p{
+    color: white;
+
+}
