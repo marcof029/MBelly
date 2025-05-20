@@ -16,7 +16,7 @@
     text-decoration: none;
 }
 
-.cabeçalho{
+.cabecalho{
     padding: 40px;
     background-color: #2e190e;
     display: flex;
@@ -29,10 +29,11 @@
     background-position: left center;
     height: 400px;
 
-.pai-menu-cabeçalho{
-    display: flex;
-    
+#cabecalhologobotao{
+    display: none;
+
 }
+
 nav a{
     color: white;
     text-decoration: none;
