@@ -8,43 +8,30 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 *{
-    margin: 0px;
-    padding: 0px;
-    text-indent: 0px;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    text-decoration: none;
 }
 
-header{
+.cabeçalho{
     padding: 40px;
     background-color: #2e190e;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    
-    
-}
-.header-nome-lema{
- color: white;
- display: flex;
- flex-flow: row wrap;
- text-align: justify;
- align-items: center;
- 
-}
-.header-nome-lema > h1{
-    margin-right: 10px;
-}
-/* header > h1{
-    color: white;
-    text-align: center;
-}
-header h2{
-    color: white;
-    text-align: center;
-} */
-nav{
-    background-color: var(--MarromEscuro);
+    background-image: url(imagens/Dark\ And\ Beige\ Elegant\ Business\ Facebook\ Cover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 400px;
 
+.pai-menu-cabeçalho{
+    display: flex;
+    
 }
 nav a{
     color: white;
@@ -66,9 +53,7 @@ h2{
     font-weight: bold;
     text-align: center;
 }
-#logo1{
-    height: 100px;
-    width: 100px;
+
     
 }
 #logo2{
