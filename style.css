@@ -20,28 +20,41 @@
     padding: 40px;
     background-color: #2e190e;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
     background-image: url(imagens/Dark\ And\ Beige\ Elegant\ Business\ Facebook\ Cover.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
-    height: 400px;
-
-#cabecalhologobotao{
-    display: none;
-
+    height: 480px;
+    border-bottom: 2px #c1a37f;
 }
 
-nav a{
+.cabecalho-menu{
+    display: flex;
+    flex-flow:row wrap;
+    gap: 100px;
+    border-bottom: 2px #f5f5dc;
+    margin-right: 90px;
+}
+
+
+
+.cabecalho-menu-item{
+    font-size: 1.5em;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif; /*escolher fontes*/
 }
-.video1{
-    width: 100%;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.342);
+
+.cabecalho-menu-item:hover{
+    background-color: rgba(0, 0, 0, 0.346);
+    font-size: 1.6em;
+    color: #f5f5dc;
+}
+
 }
 h2{
     font-family: Playfair Display,serif;
