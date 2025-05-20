@@ -10,22 +10,38 @@
 *{
     margin: 0px;
     padding: 0px;
+    text-indent: 0px;
 }
 
 header{
-    height: 300px;
-    width: 3000px;
+    padding: 40px;
     background-color: #2e190e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    
     
 }
-header > h1{
+.header-nome-lema{
+ color: white;
+ display: flex;
+ flex-flow: row wrap;
+ text-align: justify;
+ align-items: center;
+ 
+}
+.header-nome-lema > h1{
+    margin-right: 10px;
+}
+/* header > h1{
     color: white;
     text-align: center;
 }
 header h2{
     color: white;
     text-align: center;
-}
+} */
 nav{
     background-color: var(--MarromEscuro);
 
